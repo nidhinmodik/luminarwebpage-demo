@@ -1,0 +1,242 @@
+*{
+    padding: 0;
+    margin: 0;
+    box-sizing: border-box;
+    font-family: 'Times New Roman', Times, serif;
+    text-decoration: none;
+    list-style: none;
+    scroll-behavior: smooth;
+}
+.carousel-item {
+    position: relative;
+    width: 50%;
+  }
+  
+  
+  .carousel-item img {
+    width: 100%;
+    height: auto;
+  }
+  
+  .carousel-item .btn1 {
+    position: absolute;
+    top: 90%;
+    left: 20%;
+    transform: translate(-50%, -50%);
+    -ms-transform: translate(-50%, -50%);
+    background-color: #a703c8;
+    color: white;
+    font-size: 16px;
+    padding: 12px 24px;
+    border: none;
+    cursor: pointer;
+    border-radius: 5px;
+}
+.img1 img{
+    margin-left: 25%;
+    margin-top: 20px;
+    margin-bottom: 20px;
+}
+.grid-gallery{
+  width: 100%;
+  max-width: 1200px;
+  margin: 0 auto;
+  padding: 50px 20px;
+  display: grid;
+  grid-template-columns: repeat(auto-fit,minmax(250px, 1fr));
+  grid-auto-rows: 250px;
+  grid-auto-flow: dense;
+  grid-gap: 20px;
+  border: #c74bdf solid 5px;
+  background-color: rgba(218, 217, 217, 0.621);
+}
+.grid-gallery .grid-item{
+  position: relative;
+  background-color: white;
+  overflow: hidden;
+}
+.grid-gallery .grid-item img{
+  width: 100%;
+  height: 100%;
+  object-fit: cover;
+  transition: transform 0.5 cubic-bezier(0.165, 0.84, 0.44, 1);
+}
+.grid-gallery .grid-item:hover img{
+  transform: scale(1.1);
+}
+.grid-gallery .grid-item a{
+  cursor: zoom-in;
+}
+.grid-gallery .grid-item:nth-child(3n - 2){
+  grid-column: span 2;
+  grid-row: span 2;
+}
+.our {
+  text-align: center;
+  padding: 10px;
+  margin-top: 20px;
+  /* background-color: rgba(218, 217, 217, 0.621); */
+}
+
+.box {
+  background-color: #861f9b;
+  height: 110px;
+  width: 110px;
+  border-radius: 23px;
+}
+
+#row3 {
+  margin-top: 200px;
+}
+
+.box2 {
+  height: 160px;
+  width: 200px;
+  background-color: #71169eb0;
+}
+
+.box1 {
+  height: 250px;
+  width: 250px;
+
+}
+
+#box4 {
+  position: absolute;
+  /* border: 2px solid black ; */
+  height: 257px;
+  width: 268px;
+}
+
+.boxA {
+  /* background-color: #70169E; */
+  z-index: 1;
+}
+
+.boxB {
+  background-color: #71169e7a;
+  height: 280px;
+  width: 280px;
+  color: white;
+  border-radius: 25px;
+}
+
+#box4:hover {
+  color: #a803c9ac;
+  opacity: 0%;
+}
+#boxA{
+  opacity:50% ;
+}
+
+#col1 {
+  position: relative;
+  bottom: 100px;
+  left: 220px;
+}
+
+.boxA img {
+  border-radius: 25px;
+}
+
+.box {
+  position: relative;
+  /* bottom: 0px; */
+  left: 160px;
+  top: 95px;
+}
+.container2 {
+  margin-bottom: 280px;
+}
+
+.container1 {
+  position: relative;
+  bottom: 60px;
+  top: 120px;
+}
+
+.container2 .boxB {
+  height: 300px;
+}
+/* ******************************* */
+.coursebox {
+  height: 436px;
+  width: 430px;
+  border: 2px solid #c74bdf ;
+  background-color: #e0cde3;
+  border-radius:23px ;
+}
+.icon{
+  background-color:#c74bdf ;
+  color:#e4db ;
+}
+.innerbox {
+  height: 470px;
+  width: 250px;
+  max-width: 250px;
+  min-height: auto;
+  margin-left: 40px;
+  margin-top: 40px;
+  font-family: system-ui, -apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, Oxygen, Ubuntu, Cantarell, 'Open Sans', 'Helvetica Neue', sans-serif;
+}
+.coursebox:hover{
+  background-color: white;
+
+}
+.foot2{
+  color: #a803c9;
+}
+.foot1{
+  padding: 5px;
+}
+.foot1 a{
+  padding: 10px;
+  text-decoration: none;
+  text-align: start;
+}
+.foot1 p a:hover{
+  color: #a703c8;
+  text-decoration: underline;
+  /* background-color: #a703c8; */
+}
+.foot3{
+  text-decoration: none;
+}
+.foot3 a{
+  text-decoration: none;
+}
+.foot3 a:hover{
+  color: #a803c9;
+  text-decoration: underline;
+}
+.foot4{
+  color: #a803c9;
+}
+.foot5{
+  color: #a803c9;
+}
+.overlay{
+  position:relative;
+  bottom:500px ;
+}
+.card{
+  align-items: center;
+  justify-content: center;
+}
+.card-body{
+  align-items: center;
+  justify-content: center;
+  text-align: justify;
+}
+.card-title{
+  align-items: center;
+  justify-content: center;
+}
+.card{
+  border: none;
+}
+.card:hover{
+  background-position: left bottom;
+  border: 2px;
+  box-shadow: none;
+}
